@@ -38,18 +38,8 @@ namespace WindowsFormsApp1
             fm3.replace_only(temp2);
             fm3.temp_findnext(temp);
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
+        
+         private void button4_Click(object sender, EventArgs e)
         {
             Close();
         }
@@ -62,6 +52,16 @@ namespace WindowsFormsApp1
             temp2 = textBox2.Text.ToString();
             Form1 fm3 = (Form1)this.Owner;
             fm3.replace_all(temp1, temp2);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
