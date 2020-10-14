@@ -205,9 +205,9 @@ namespace WindowsFormsApp1
 
         }
 
-        public void replace_all(string a)
+        public void replace_all(string a, string b)
         {
-            richTextBox1.Text = richTextBox1.Text.Replace(richTextBox1.SelectedText.ToString(), a);
+            richTextBox1.Text = richTextBox1.Text.Replace(a,b);
         }
         
         private void findToolStripMenuItem_Click(object sender, EventArgs e)
@@ -233,7 +233,7 @@ namespace WindowsFormsApp1
         {
             try
             {
-                System.Diagnostics.Process.Start("https://github.com/khoauit99");
+                System.Diagnostics.Process.Start("https://github.com/khoauit99/Home-work-Notepad");
             }
             catch
             { }
